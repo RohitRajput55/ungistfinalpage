@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+html, body {
+    scroll-behavior: smooth;
+}
+
+#main {
+    width: 100%;
+    height: auto;
+    padding: 8vw 16vw;
+    /* background: rgba(179, 174, 174, 0.253); */
+    background: #fff;
+}
+#main-con {
+    width: 100%;
+    
+      
+}
+#main-con #con-up {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+}
+#main-con #con-up i {
+    font-size: 4vw;
+    color: green;
+    align-self: center;
+    margin-bottom: 2%;
+}
+
+#main-con #con-up h1 {
+    text-align: center;
+    font-size: 3vw;
+    margin-bottom: 2%;
+}
+
+#main-con #con-up p {
+    font-size: 20px;
+    text-align: center;
+    color: #0000009c;
+}
+#main-con #con-down {
+    width: 100%;
+    margin-top: 10%;
+    
+}
+
+#main-con #con-down {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#main-con #con-down h2 {
+    text-align: center;
+    font-size: 2vw;
+    margin-top: 10%;
+    
+}
+#main-con #con-down #down-con1 {
+width: 350px;
+    height: 280px;
+    background: #fff;
+    
+    border-radius: 50px;
+background: #e0e0e07c;
+box-shadow:  20px 20px 60px #bebebe,
+             -20px -20px 60px #ffffff;
+    padding: 1vw;
+}
+#main-con #con-down #con-cc {
+    padding: 2vw;
+    margin-top: 10%;
+    display: flex;
+    justify-content: space-around;
+}
+
+#main-con #con-down #con-cc img {
+    width: 55px;
+}
+#main-con #con-down #con-cc1 {
+    width: 350px;
+    height: 280px;
+    background: #fff;
+    border-radius: 50px;
+background: #e0e0e07c;
+box-shadow:  20px 20px 60px #bebebe,
+             -20px -20px 60px #ffffff;
+    padding: 1vw;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 25%;
+
+}
+
+#main-con #con-down #con-cc1 button {
+    padding: 10px 20px;
+    background: red;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+}
+#main-con #con-down #con-cc1 button a{
+    text-decoration: none;
+    font-size: 1.1vw;
+    color: #fff;
+}
+
+@media (width <= 500px) {
+    #main {
+        width: 100%;
+        padding: 8vw 16vw;
+        /* background: rgba(179, 174, 174, 0.253); */
+        background: #fff;
+    }
+    
+    #main-con #con-up i {
+        font-size: 12vw;
+    }
+    #main-con #con-up h1 {
+        font-size: 8vw;
+    }
+    #main-con #con-up p {
+        font-size: 16px;
+    }
+    #con-down {
+        height: 70vh;
+    }
+    #main-con #con-down #con-cc1 button {
+        margin-top: 5%;
+    }
+    #main-con #con-down #con-cc1 button a{
+        font-size: 4vw;
+
+    }
+
+    #main-con #con-down {
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    #main-con #con-down h2 {
+        font-size: 7vw;
+    }
+    #main-con #con-down #down-con1 {
+        width: 280px;
+        height: 220px;
+    }
+    #main-con #con-down #con-cc1 {
+        width: 280px;
+        height: 220px;
+    }
+}
